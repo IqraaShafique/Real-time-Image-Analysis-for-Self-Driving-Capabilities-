@@ -246,7 +246,7 @@ def calculate_and_display_fps(frame, prev_time, curr_time):
     return frame, curr_time  #return the frame and the current time for next frame
 
 def main():
-    video_path = r'D:\Iqra\.DEGREE\SEM 6\DIP\PXL_20250325_043922504.TS.mp4'
+    video_path = r'path'
     cap = cv2.VideoCapture(video_path)
 
     if not cap.isOpened():
